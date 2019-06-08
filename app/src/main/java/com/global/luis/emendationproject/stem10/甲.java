@@ -1,6 +1,6 @@
 package com.global.luis.emendationproject.stem10;
 
-public class 甲 extends stem {
+public class 甲 extends Stem {
     private static final int heTuValue=3;//河图数
     private static final int blackValue=9;//太玄数
     public static final int sequenceValue=1;//顺序数

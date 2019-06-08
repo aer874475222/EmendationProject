@@ -1,6 +1,6 @@
 package com.global.luis.emendationproject.stem10;
 
-public class 癸 extends Stem {
+public class 癸 implements IStem {
     private static final int heTuValue=6;//河图数
 
     private static final int blackValue=5;//太玄数
@@ -8,10 +8,18 @@ public class 癸 extends Stem {
     public static final int reverseSequenceValue =  1;//逆序数
     private static final String orientation="北";//方位
 
-    public static int getHeTuValue() {
+    @Override
+    public int getHeTuValue() {
         return heTuValue;
     }
-    public static int getBlackValue() {
+
+    @Override
+    public int getBlackValue() {
         return blackValue;
+    }
+
+    @Override
+    public int getSequenceValue() {
+        return sequenceValue;
     }
 }

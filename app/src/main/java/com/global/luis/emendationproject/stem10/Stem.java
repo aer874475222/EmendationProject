@@ -5,7 +5,7 @@ public class Stem {
     /**
      * 甲己子午九, 乙庚丑未八, 丙辛寅申七, 丁壬卯酉六, 戊癸辰戌五, 巳亥单四数
      */
-    private static int blackValue;//太玄数
+    private static int blackValue;//太玄数sequenceValue
 
     public static final int sequenceValue=0;//顺序数
     public static final int reverseSequenceValue =0;//逆序数

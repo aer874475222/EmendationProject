@@ -1,22 +1,8 @@
 package com.global.luis.emendationproject;
 
-import com.global.luis.emendationproject.divinatorysymbols64.BaseSymbol;
-import com.global.luis.emendationproject.divinatorysymbols64.艮为山;
-import com.global.luis.emendationproject.divinatorysymbols64.雷地豫;
-import com.global.luis.emendationproject.divinatorysymbols64.雷天大壮;
-import com.global.luis.emendationproject.divinatorysymbols64.雷山小过;
-import com.global.luis.emendationproject.divinatorysymbols64.雷水解;
-import com.global.luis.emendationproject.divinatorysymbols64.雷泽归妹;
-import com.global.luis.emendationproject.divinatorysymbols64.雷火丰;
-import com.global.luis.emendationproject.divinatorysymbols64.雷风恒;
-import com.global.luis.emendationproject.divinatorysymbols64.震为雷;
-import com.global.luis.emendationproject.divinatorysymbols64.风地观;
-import com.global.luis.emendationproject.divinatorysymbols64.风天小畜;
-import com.global.luis.emendationproject.divinatorysymbols64.风山渐;
-import com.global.luis.emendationproject.divinatorysymbols64.风水涣;
-import com.global.luis.emendationproject.divinatorysymbols64.风泽中孚;
-import com.global.luis.emendationproject.divinatorysymbols64.风火家人;
-import com.global.luis.emendationproject.divinatorysymbols64.风雷益;
+import com.global.luis.emendationproject.stem10.己;
+import com.global.luis.emendationproject.stem10.甲;
+import com.global.luis.emendationproject.utils.Utils;
 
 public class TestActivity {
 
@@ -78,24 +64,9 @@ public class TestActivity {
         System.out.println(BaseSymbol.judgeSixClash(离为火.getValue()));   //true*/
 
 
+        BaseElements baseElements = Utils.getFiveConvert(new 甲(), new 己());
 
-        System.out.println(BaseSymbol.judgeSixClash(艮为山.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(雷地豫.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(雷天大壮.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(雷山小过.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(雷水解.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(雷泽归妹.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(雷火丰.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(雷风恒.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(震为雷.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(风地观.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(风天小畜.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(风山渐.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(风水涣.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(风泽中孚.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(风火家人.getValue()));
-        System.out.println(BaseSymbol.judgeSixClash(风雷益.getValue()));
-
+        System.out.println(baseElements.getClass().getSimpleName());   //true*/
 
 
     }

@@ -7,6 +7,9 @@ public class stem {
      */
     private static int blackValue;//太玄数
 
+    public static final int sequenceValue=0;//顺序数
+    public static final int reverseSequenceValue =0;//逆序数
+
     public static int getHeTuValue() {
         return heTuValue;
     }

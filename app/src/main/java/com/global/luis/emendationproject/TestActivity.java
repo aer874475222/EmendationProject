@@ -2,7 +2,7 @@ package com.global.luis.emendationproject;
 
 import com.global.luis.emendationproject.elements5.IElements;
 import com.global.luis.emendationproject.stem10.乙;
-import com.global.luis.emendationproject.stem10.甲;
+import com.global.luis.emendationproject.stem10.庚;
 import com.global.luis.emendationproject.utils.Utils;
 
 public class TestActivity {
@@ -65,7 +65,7 @@ public class TestActivity {
         System.out.println(BaseSymbol.judgeSixClash(离为火.getValue()));   //true*/
 
 
-        IElements baseElements = Utils.getFiveConvert(new 甲(), new 乙());
+        IElements baseElements = Utils.getFiveConvert(new 庚(), new 乙());
 
         System.out.println(baseElements.getClass().getSimpleName());   //true*/
 

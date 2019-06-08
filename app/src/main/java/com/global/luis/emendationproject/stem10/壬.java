@@ -3,6 +3,8 @@ package com.global.luis.emendationproject.stem10;
 public class 壬  extends stem {
     private static final int heTuValue=1;//河图数
     private static final int blackValue=6;//太玄数
+    public static final int sequenceValue=9;//顺序数
+    public static final int reverseSequenceValue = 2;//逆序数
     private static final String orientation="北";//方位
 
 

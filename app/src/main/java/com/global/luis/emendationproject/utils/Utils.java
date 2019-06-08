@@ -5,7 +5,13 @@ import com.global.luis.emendationproject.elements5.IElements;
 import com.global.luis.emendationproject.stem10.IStem;
 
 public class Utils {
-
+    /**
+     * 天干五合
+     *
+     * @param aStem
+     * @param bStem
+     * @return
+     */
     public static IElements getFiveConvert(IStem aStem, IStem bStem) {
         if (Math.abs(aStem.getSequenceValue() - bStem.getSequenceValue()) == 5) {
 

@@ -68,6 +68,7 @@ public class TestActivity {
         IElements baseElements = Utils.getFiveConvert(new 庚(), new 乙());
 
         System.out.println(baseElements.getClass().getSimpleName());   //true*/
+        System.out.println(baseElements.getClass().getSimpleName());   //true*/
 
 
     }
